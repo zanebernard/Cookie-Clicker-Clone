@@ -20,7 +20,7 @@ for i in b_cookies:
 background.shape("background1.gif")
 
 # setup counter
-number = 10000
+number = 0
 font_name = "Arial"  # Font name
 font_size = 24       # Font size
 font_type = "normal"  # Font type: "normal", "bold", or "italic"
@@ -203,5 +203,3 @@ def main():
     
 
 main()
-game.onclick(click)
-game.mainloop()
